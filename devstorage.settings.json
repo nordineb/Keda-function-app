@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "AzureWebJobsSecretStorageType": "Files",
+        "AzureWebJobsDisableHomepage": false,
+        "StorageConnectionAppSetting":"DefaultEndpointsProtocol=https;AccountName=******;AccountKey=*****;EndpointSuffix=core.windows.net"
+    },
+    "Host": {
+        "LocalHttpPort": 7071,
+        "CORS": "*",
+        "CORSCredentials": false
+    }
+}
